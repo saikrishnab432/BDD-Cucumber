@@ -8,7 +8,7 @@ import org.openqa.selenium.support.How;
 @PageObject
 public class LoginPage extends AbstractPage {
 
-    @FindBy(how = How.ID, using = "flash")
+    @FindBy(how = How.ID, using = "flash")  // this is a page factory annotation
     private WebElement MESSAGE;
 
     public WebElement getMessage() throws NoSuchFieldException {
