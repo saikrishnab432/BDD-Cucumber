@@ -25,5 +25,6 @@ public abstract class AbstractPage implements BaseTest {
 
     public void wait(String time) throws InterruptedException {
         Thread.sleep(Integer.parseInt(time));
+        //sample
     }
 }
